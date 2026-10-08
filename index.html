@@ -4,6 +4,10 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>sumichannel</title>
+<!-- ホーム画面アイコン -->
+<link rel="apple-touch-icon" id="appleIcon" href="data:image/png;base64,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">
+<meta name="apple-mobile-web-app-title" content="sumichannel">
+<meta name="theme-color" content="#0a0c0e">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;600;700&family=Oswald:wght@200;300;400;700&display=swap" rel="stylesheet">
 <style>
@@ -206,6 +210,18 @@
   @keyframes fadeUp { from { opacity:0; transform:translateY(16px); } to { opacity:1; transform:translateY(0); } }
   .fadein { animation: fadeUp .6s both; }
   .d1{animation-delay:.1s}.d2{animation-delay:.2s}.d3{animation-delay:.3s}.d4{animation-delay:.4s}.d5{animation-delay:.5s}.d6{animation-delay:.6s}.d7{animation-delay:.7s}
+
+  /* === Claude Code のキャラクター（メイン画面の左上） === */
+  .cc-wrap { position: fixed; top: calc(12px + env(safe-area-inset-top)); left: 40px; z-index: 2; width: 62px; height: 40px; flex-shrink: 0; display: flex; justify-content: center; }
+  .cc-mascot { display: flex; flex-direction: column; align-items: center; gap: 3px; text-decoration: none; padding-top: 4px; }
+  .cc-mascot svg { width: 36px; height: 27px; shape-rendering: crispEdges; overflow: visible; transform-origin: center; }
+  /* 歩く・立ち止まる・手足の動きは、下のスクリプト（ccMascot）で1コマずつ動かしている */
+  .cc-mascot .cc-label { font-family: -apple-system, "Segoe UI", sans-serif; font-size: 7px; letter-spacing: 0.05em; color: #d97757; opacity: 0.8; white-space: nowrap; }
+  .cc-body { fill: #d97757; }
+  .cc-eye { fill: #1a1612; transform-box: fill-box; transform-origin: center; }
+  /* ときどきまばたき */
+  .cc-eye { animation: cc-blink 4s infinite; }
+  @keyframes cc-blink { 0%, 92%, 100% { transform: scaleY(1); } 95% { transform: scaleY(0.1); } }
 </style>
 </head>
 <body>
@@ -225,6 +241,26 @@
 <div id="main">
   <div class="main-corner tl"></div>
   <div class="main-corner br"></div>
+  <div class="cc-wrap">
+    <a class="cc-mascot" href="https://claude.com/claude-code" target="_blank" rel="noopener" title="Claude Code で作成" aria-label="Claude Code で作成">
+      <!-- 1マス＝1ドットのドット絵（横12×縦8マス：体6段＋足2段） -->
+      <svg viewBox="0 -1 12 9" aria-hidden="true">
+        <!-- 足（左から順に4本）。上げるときは高さを1マスにする -->
+        <rect class="cc-body cc-leg" x="2" y="6" width="1" height="2"/>
+        <rect class="cc-body cc-leg" x="4" y="6" width="1" height="2"/>
+        <rect class="cc-body cc-leg" x="7" y="6" width="1" height="2"/>
+        <rect class="cc-body cc-leg" x="9" y="6" width="1" height="2"/>
+        <g class="cc-hop">
+          <rect class="cc-body" x="2" y="0" width="8" height="6"/>
+          <rect class="cc-body cc-arm-l" x="0" y="2" width="2" height="2"/>
+          <rect class="cc-body cc-arm-r" x="10" y="2" width="2" height="2"/>
+          <rect class="cc-eye" x="3" y="1" width="1" height="1"/>
+          <rect class="cc-eye" x="8" y="1" width="1" height="1"/>
+        </g>
+      </svg>
+      <span class="cc-label">Claude Code</span>
+    </a>
+  </div>
   <p class="main-sub fadein d1">— Player Channel —</p>
   <h1 class="main-title fadein d2">sumi<span>channel</span></h1>
   <div class="divider fadein d3"></div>
@@ -509,6 +545,87 @@ function playCloseSound() {
   osc.connect(g); g.connect(actx.destination);
   osc.start(t); osc.stop(t + 0.15);
 }
+
+// =============================================================
+// Claude Code のキャラクター（メイン画面の左上）
+//   右へ歩く → 端で立ち止まって手足をちょこちょこ動かし、振り向く → 左へ戻る … を繰り返す
+// =============================================================
+(function ccMascot() {
+  const svg = document.querySelector('.cc-mascot svg');
+  if (!svg) return;
+  const body = svg.querySelector('.cc-hop');
+  const armL = svg.querySelector('.cc-arm-l');
+  const armR = svg.querySelector('.cc-arm-r');
+  const legs = Array.from(svg.querySelectorAll('.cc-leg')); // 左から順に4本
+
+  const HALF = 12;        // 真ん中から左右それぞれに歩く幅（px）
+  const STEP = 2;         // 1歩で進む距離（px）
+  const TICK = 220;       // 1コマの長さ（ミリ秒）
+  const IDLE_TICKS = 9;   // 端で立ち止まるコマ数
+
+  let x = -HALF, dir = 1, mode = 'idle', t = 0;
+
+  const legUp = (i, up) => legs[i].setAttribute('height', up ? 1 : 2);
+  const armUp = (el, up) => el.setAttribute('y', up ? 1 : 2);
+  const bob = up => body.setAttribute('transform', up ? 'translate(0,-1)' : '');
+  const rest = () => { legs.forEach((_, i) => legUp(i, false)); armUp(armL, false); armUp(armR, false); bob(false); };
+  const draw = () => { svg.style.transform = `translateX(${x}px) scaleX(${dir})`; };
+
+  function tick() {
+    t++;
+    if (mode === 'walk') {
+      // 歩く：外側2本と内側2本の足を交互に上げ、体も小さく弾ませる
+      const ph = t % 2;
+      armUp(armL, false); armUp(armR, false);
+      legUp(0, ph === 0); legUp(2, ph === 0);
+      legUp(1, ph === 1); legUp(3, ph === 1);
+      bob(ph === 0);
+      x += STEP * dir;
+      if (x <= -HALF || x >= HALF) {
+        x = Math.max(-HALF, Math.min(HALF, x));
+        mode = 'idle'; t = 0; rest();
+      }
+    } else {
+      // 立ち止まり：両腕を交互に上げ下げし、端の足でトントンと足踏み
+      const ph = t % 4;
+      armUp(armL, ph === 1);
+      armUp(armR, ph === 3);
+      legUp(0, ph === 2);
+      legUp(3, ph === 0);
+      bob(false);
+      if (t === Math.floor(IDLE_TICKS / 2)) dir = (x >= HALF) ? -1 : 1; // 途中で振り向く
+      if (t >= IDLE_TICKS) { mode = 'walk'; t = 0; rest(); }
+    }
+    draw();
+  }
+
+  draw();
+  setInterval(tick, TICK);
+})();
+
+// ホーム画面アイコン：元のアイコン画像の左上に Claude Code のキャラクターを描き足す
+(function ccIcon() {
+  const appleIcon = document.getElementById('appleIcon');
+  const favIcon = document.getElementById('favIcon');
+  if (!appleIcon) return;
+  const img = new Image();
+  img.onload = function() {
+    const canvas = document.createElement('canvas');
+    canvas.width = img.width; canvas.height = img.height;
+    const ctx = canvas.getContext('2d');
+    ctx.drawImage(img, 0, 0);
+    var p=3, ox=14, oy=14;   // 1ドットの大きさと左上の位置（180pxアイコンの場合）
+    var px=function(x,y,w,h,col){ctx.fillStyle=col;ctx.fillRect(ox+x*p,oy+y*p,w*p,h*p);};
+    var o='#d97757';
+    px(2,0,8,6,o); px(0,2,2,2,o); px(10,2,2,2,o);               // 体と両腕
+    px(2,6,1,2,o); px(4,6,1,2,o); px(7,6,1,2,o); px(9,6,1,2,o); // 足4本
+    px(3,1,1,1,'#1a1612'); px(8,1,1,1,'#1a1612');               // 目
+    const url = canvas.toDataURL('image/png');
+    appleIcon.href = url;
+    if (favIcon) favIcon.href = url;
+  };
+  img.src = appleIcon.href;
+})();
 </script>
 </body>
 </html>
